@@ -1,16 +1,17 @@
-package cooldown;
+package com.github.simaodiazz.simplifier.cooldown;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class CooldownValue {
 
-    private HashMap<String, Long> cooldowns;
+    private Map<String, Long> cooldowns;
 
     public CooldownValue() {
         this.cooldowns = new HashMap<>();
     }
 
-    public HashMap<String, Long> getCooldowns() {
+    public Map<String, Long> getCooldowns() {
         return cooldowns;
     }
 

@@ -22,6 +22,10 @@ public class ItemBuilder {
         this.itemStack = new ItemStack(Material.AIR);
     }
 
+    public ItemBuilder(Material material) {
+        this.itemStack = new ItemStack(material);
+    }
+
     public ItemBuilder(ItemStack itemStack) {
         this.itemStack = itemStack;
     }
